@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
+- Solution URL: [https://github.com/TimmyOGH/Newsletter-Signup]
 - Live Site URL: []
 
 ### Built with
@@ -48,4 +48,4 @@ I want to master frontend developement! Cheers 🍻
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@timodn](https://www.frontendmentor.io/profile/timodn)

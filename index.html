@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+
+  <div id="container">
+    <div class="card">
+      <div class="form_container">
+        <h1>Stay updated!</h1>
+        <p style="margin-bottom: 20px;">Join 60,000+ product managers receiving monthly updates on:</p>
+        <p class="pros"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><path fill="hsl(4, 100%, 67%)" d="M40,77.5C19.3,77.5,2.5,60.7,2.5,40S19.3,2.5,40,2.5S77.5,19.3,77.5,40S60.7,77.5,40,77.5z"/><path fill="hsl(4, 100%, 67%)" d="M40,3c20.4,0,37,16.6,37,37S60.4,77,40,77S3,60.4,3,40S19.6,3,40,3 M40,2C19,2,2,19,2,40s17,38,38,38 s38-17,38-38S61,2,40,2L40,2z"/><path fill="#fff" d="M34 56L20.2 42.2 24.5 38 34 47.6 58.2 23.4 62.5 27.6z"/></svg>Product
+          discovery and building what matters</p>
+        <p class="pros"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><path fill="hsl(4, 100%, 67%)" d="M40,77.5C19.3,77.5,2.5,60.7,2.5,40S19.3,2.5,40,2.5S77.5,19.3,77.5,40S60.7,77.5,40,77.5z"/><path fill="hsl(4, 100%, 67%)" d="M40,3c20.4,0,37,16.6,37,37S60.4,77,40,77S3,60.4,3,40S19.6,3,40,3 M40,2C19,2,2,19,2,40s17,38,38,38 s38-17,38-38S61,2,40,2L40,2z"/><path fill="#fff" d="M34 56L20.2 42.2 24.5 38 34 47.6 58.2 23.4 62.5 27.6z"/></svg>Measuring to
+          ensure updates are a success</p>
+        <p class="pros"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><path fill="hsl(4, 100%, 67%)" d="M40,77.5C19.3,77.5,2.5,60.7,2.5,40S19.3,2.5,40,2.5S77.5,19.3,77.5,40S60.7,77.5,40,77.5z"/><path fill="hsl(4, 100%, 67%)" d="M40,3c20.4,0,37,16.6,37,37S60.4,77,40,77S3,60.4,3,40S19.6,3,40,3 M40,2C19,2,2,19,2,40s17,38,38,38 s38-17,38-38S61,2,40,2L40,2z"/><path fill="#fff" d="M34 56L20.2 42.2 24.5 38 34 47.6 58.2 23.4 62.5 27.6z"/></svg>And much more!
+        </p>
+        <div class="email_n_error"><span>Email address</span><span id="error_text" style="color: hsl(4, 100%, 67%); display: none;">Valid email required</span></div>
+        <form>
+          <input type="text" name="email" id="email" placeholder="email@company.com" autocomplete="off">
+          <input type="submit" name="subscribeBtn" id="subscribeBtn" onclick="validateEmail(event)" value="Subscribe to monthly newsletter">
+        </form>
+      </div>
+      <div class="img_container">
+        <img src="assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
